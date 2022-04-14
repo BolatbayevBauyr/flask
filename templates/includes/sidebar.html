@@ -1,0 +1,58 @@
+
+    <nav class="pcoded-navbar">
+        <div class="navbar-wrapper">
+            <div class="navbar-brand header-logo">
+                <a target="_blank" 
+                   href="http://fintex.kz" class="b-brand">
+                    <div class="b-bg">
+                        <i class="feather icon-trending-up"></i>
+                    </div>
+                    <span class="b-title">FinTEx Group</span>
+                </a>
+                <a class="mobile-menu" id="mobile-collapse" href="javascript:"><span></span></a>
+            </div>
+            <div class="navbar-content scroll-div">
+                <ul class="nav pcoded-inner-navbar">
+                    <li class="nav-item pcoded-menu-caption">
+                        <label></label>
+                    </li>
+                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" 
+                        class="nav-item {% if 'index' in segment %} active {% endif %}">
+                        <a href="/" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Главная</span></a>
+                    </li>
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>Курсы</label>
+                    </li>
+                    <li data-username="basic components Button Alert Badges breadcrumb Paggination progress Tooltip popovers Carousel Cards Collapse Tabs pills Modal Grid System Typography Extra Shadows Embeds" class="nav-item pcoded-hasmenu">
+                        <a href="javascript:" class="nav-link "><span class="pcoded-micon"><i class="feather icon-box"></i></span><span class="pcoded-mtext">Грант ДКБ 2025</span></a>
+                        <ul class="pcoded-submenu">
+                            <li class=""><a href="/authorized/first_lesson" class="">1 урок</a></li>
+                            <li class=""><a href="/authorized/second_lesson" class="">2 урок</a></li>
+                            <li class=""><a href="/authorized/third_lesson" class="">3 урок</a></li>
+                            <li class=""><a href="/authorized/fourth_lesson" class="">4 урок</a></li>
+                            <li class=""><a href="/authorized/fifth_lesson" class="">5 урок</a></li>
+                            <li class=""><a href="/authorized/sixth_lesson" class="">6 урок</a></li>
+                            <li class=""><a href="/authorized/sevens_lesson" class="">7 урок</a></li>
+                            <li class=""><a href="/authorized/eights_lesson" class="">8 урок</a></li>
+                            <li class=""><a href="/authorized/bonus_lesson" class="">Бонусный урок</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>Сервисы</label>
+                    </li>
+                    <li data-username="form elements advance componant validation masking wizard picker select" 
+                        class="nav-item ">
+                        <a href="/authorized/bp_constructor" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Конструктор Бизнес Планов</span></a>
+                    </li>
+
+
+                    <li data-username="Disabled Menu" class="nav-item">
+                        <a href="{{ url_for('base_blueprint.logout') }}" class="nav-link">
+                            <span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Выход</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>

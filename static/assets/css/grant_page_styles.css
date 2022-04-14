@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: ghostwhite;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.profile__img{
+    display: block;
+    background-image: url(/assets/images/person.jpg);
+    background-position: center center;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button{
+    padding: 15px;
+    border-radius: 5px;
+    border:1px solid rgb(173, 173, 173);
+    width: 250px;
+}

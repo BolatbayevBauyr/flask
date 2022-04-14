@@ -1,0 +1,9 @@
+
+version: "3"
+services:
+  dashboard:
+    restart: always
+    build: .
+    command: python -u run.py
+    ports:
+      - "80:5000"
